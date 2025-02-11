@@ -45,6 +45,9 @@ Assets/**/StreamingAssets.meta
 *.pidb
 *.mdb
 *.opendb
+*.VC.db
+*.psd
+*.clip
 *.pdb
 
 # Crash Reports
