@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class BarrierRotation : MonoBehaviour
 {
-    public int RotationSpeed = 10;
-    void Update()
+    [SerializeField] private int RotationSpeed;
+    void FixedUpdate()
     {
         Rotation();
     }
@@ -13,11 +13,11 @@ public class BarrierRotation : MonoBehaviour
     {
         if(Input.GetKey(KeyCode.A) ||  Input.GetKey(KeyCode.LeftArrow))
         {
-            transform.Rotate(Vector3.forward* RotationSpeed);
+            transform.Rotate(Vector3.forward* RotationSpeed*Time.deltaTime);
         }
         if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
         {
-            transform.Rotate(Vector3.back* RotationSpeed);
+            transform.Rotate(Vector3.back* RotationSpeed * Time.deltaTime);
         }
         if (Input.GetKeyDown(KeyCode.Space))
         {
