@@ -123,6 +123,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+<<<<<<< Updated upstream
 --- !u!1 &27730043
 GameObject:
   m_ObjectHideFlags: 0
@@ -270,6 +271,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 27730043}
   m_CullTransparentMesh: 1
+=======
+>>>>>>> Stashed changes
 --- !u!1 &184543887
 GameObject:
   m_ObjectHideFlags: 0
@@ -362,6 +365,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< Updated upstream
 --- !u!1 &258015440
 GameObject:
   m_ObjectHideFlags: 0
@@ -1105,13 +1109,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> Stashed changes
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 184543890}
+<<<<<<< Updated upstream
   - {fileID: 852752810}
   - {fileID: 939346609}
   - {fileID: 1806790447}
   - {fileID: 967870463}
   - {fileID: 1246943312}
+=======
+>>>>>>> Stashed changes
