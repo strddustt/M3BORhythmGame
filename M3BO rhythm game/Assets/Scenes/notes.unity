@@ -124,6 +124,7 @@ NavMeshSettings:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 --- !u!1 &180582641
 GameObject:
   m_ObjectHideFlags: 0
@@ -274,6 +275,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4127315938482661596, guid: 6d358c08a245c17478d0d363b219b21a, type: 3}
   m_PrefabInstance: {fileID: 7371146035669368432}
   m_PrefabAsset: {fileID: 0}
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 --- !u!1 &692831008
@@ -795,10 +798,14 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_Children:
   - {fileID: 904729725}
   - {fileID: 180582642}
   - {fileID: 558508664}
+=======
+  m_Children: []
+>>>>>>> Stashed changes
 =======
   m_Children: []
 >>>>>>> Stashed changes
