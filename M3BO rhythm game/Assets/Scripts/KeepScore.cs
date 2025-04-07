@@ -18,4 +18,9 @@ public class KeepScore : MonoBehaviour
         score += add;
         scoreField.text = "Score: " + score;
     }
+    public void SubtractScore(int subtract)
+    {
+        score -= subtract;
+        scoreField.text = "Score: " + score;
+    }
 }

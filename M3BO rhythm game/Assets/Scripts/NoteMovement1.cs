@@ -13,6 +13,13 @@ public class NoteMovement : MonoBehaviour
     {
         
     }
+    private void FixedUpdate()
+    {
+        
+        elapsed = Time.time - startTime;
+        float t = elapsed / moveDuration;
+        transform.position = Vector3.MoveTowards(transform.position, targetPosition, t);
+    }
 
     public void Initialize(Vector3 target, int timing)
     {
@@ -21,19 +28,5 @@ public class NoteMovement : MonoBehaviour
         startTime = Time.time;
     }
 
-    void Update()
-    {
-        elapsed = Time.time - startTime;
-        float t = elapsed / moveDuration;
-        transform.position = Vector3.Lerp(transform.position, targetPosition, t);
-    }
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("Player"))
-        {
-            Debug.Log(elapsed);
-            Destroy(gameObject);
-        }
-    }
+   
 }
